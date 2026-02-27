@@ -1,0 +1,42 @@
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.dept-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.dept-table th,
+.dept-table td {
+  padding: 1rem;
+  text-align: left;
+  font-size: 0.875rem;
+  border-bottom: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.dept-table th {
+  color: #94a3b8;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.75rem;
+}
+
+.dept-table td {
+  color: #e2e8f0;
+}
+
+.risk-score-cell {
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+}
